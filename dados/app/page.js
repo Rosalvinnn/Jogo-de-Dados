@@ -5,7 +5,7 @@ import { useState } from "react";
 function Dado({ valor }) {
   return (
     <img
-      src={`/dados/${valor}.png`}
+      src={`/${valor}.jpg`}
       alt={`Dado mostrando ${valor}`}
       width={80}
       height={80}
